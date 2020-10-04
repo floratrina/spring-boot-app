@@ -3,8 +3,10 @@ package com.studentInfoService.studentinfoservices.Entity;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name="student", schema="university")
 public class Student {
 
     @Id

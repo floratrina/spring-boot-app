@@ -13,7 +13,7 @@ public class Messages {
     public List<String> getMessages() {
         List<String> list = new ArrayList<>();
         list.add("This is spring boot!");
-        list.add("The app is about student info servies");
+        list.add("The app is about student info services");
         return list;
     }
 }
